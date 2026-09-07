@@ -5,7 +5,7 @@ import os
 # =====================================================================
 
 # Paste your Gemini API Key directly below inside the quotes:
-GEMINI_API_KEY = "AIzaSyClEiD7QbA382xmPwXwbUj0MWzxj3Co3Vw"
+GEMINI_API_KEY = ""
 
 # Model choice:
 MODEL_NAME = "gemini-3.6-flash"
