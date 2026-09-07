@@ -1,0 +1,13 @@
+load 2.0s
+retriever build 0.3s
+retrieve 0.0s, got 3
+prompt chars 14910
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+LLM call 175.8s
+resp chars 984
+{
+  "field_updates": {
+    "GALLBLADDER AND BILIARY TREE": "Gallbladder is surgically absent. Surgical clips are seen in the gallbladder fossa. No biliary ductal dilatation.",
+    "SPLEEN": "Small splenic calcification.",
+    "MAJOR VESSELS": "Pelvic phleboliths are present. The abdominal aorta is normal in caliber.",
+    "STOMACH AND BOWEL": "Colonic diverticulosis is present. There is focal mode

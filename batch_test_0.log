@@ -1,0 +1,31 @@
+====================================================================
+MODE=TEST  slice=[0:50]  window=50  already_done=0  to_run=50
+model=gemini-2.5-flash  top_k=3  sleep=1.0s  shard=outputs\batches\test_preds.jsonl
+====================================================================
+Preflight: key=AIzaSy...o3Vw (39 chars), model=gemini-2.5-flash
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+Preflight OK -> 'OK'
+
+[RAG Pipeline] Successfully initialized Gemini API client with model 'gemini-2.5-flash'.
+[1/50] 00320399-b3ed-447c-be07-a3e3b9af6e2e  1546 chars
+[2/50] 01b1c9ab-800b-4963-b11d-9d503952e57c  284 chars
+[3/50] 02aae38a-088b-4cae-bfdc-f0fb38da565d  364 chars
+[RAG LLM Call Error] 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+    (empty response, retry 1/4 in 10s)
+[RAG LLM Call Error] 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+    (empty response, retry 2/4 in 20s)
+[4/50] 045ea333-6d30-4edf-9d33-8ed3feb0772d  2986 chars
+[5/50] 06ef946f-5b3b-4b7c-a64f-58c184dca4e6  456 chars
+[6/50] 06f6de2d-bf9e-42fa-9ae0-ba07e80fb272  1276 chars
+[7/50] 080b9ad5-a25a-4de6-b52c-d1464ea43e93  595 chars
+[8/50] 09293ce5-df84-44b4-9882-b8cddd1a1ac1  595 chars
+[9/50] 0b2c0c30-d4e5-4dcb-8d13-1f46e2644979  2490 chars
+[10/50] 0c89b0eb-2ad2-4f31-8f80-f2bb4cd8679a  1533 chars
+[11/50] 105e2008-9924-4bff-9a63-de279e451878  680 chars
+[12/50] 10936c93-1fbc-49e8-a51e-580807955fb8  1747 chars
+[13/50] 11c886c3-f3ea-4f49-8253-026fdc431bf5  844 chars
+[14/50] 12868962-9d03-46f0-8386-538365e5f561  2854 chars
+[API Rate Limit 429] Waiting 5s before retry 1/3...
+[API Rate Limit 429] Waiting 10s before retry 2/3...
+[API Rate Limit 429] Waiting 15s before retry 3/3...
+    (empty response, retry 1/4 in 10s)

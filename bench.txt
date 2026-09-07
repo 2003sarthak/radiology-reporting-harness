@@ -1,0 +1,8 @@
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+  gemini-2.5-flash case0 178.3s 1141chars
+  gemini-2.5-flash case1 3.7s 266chars
+  gemini-2.5-flash case2 4.2s 387chars
+gemini-2.5-flash MEDIAN 4.2s -> 132 cases = 9.2 min
+  gemini-2.5-flash-lite case0 FAIL 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new
+  gemini-2.5-flash-lite case1 FAIL 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new
+  gemini-2.5-flash-lite case2 FAIL 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new
